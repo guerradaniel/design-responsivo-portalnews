@@ -13,6 +13,11 @@
     max-width: 1200px;
 }
 
+.menu-pricipal li {
+    display: flex;
+    align-items: center;
+}
+
 .logo,
 .secao {
     padding: 0 1%;
@@ -25,16 +30,16 @@ img {
 .logo,
 .busca,
 .barra-nav,
-.manu-principal {
+.menu-principal {
     display: inline-block;
     vertical-align: middle;
 }
 
-.menu-pricipal li {
+.menu-principal li {
     float: left;
 }
 
-.header {
+header {
     padding: .5em 0;
 }
 
