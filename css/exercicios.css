@@ -1,4 +1,5 @@
 .secao {
+    width: 100%;
     float: left;
     width: 33.333%;
 }
@@ -44,4 +45,16 @@ img {
 
 .barra-nav {
     margin: .4em 0;
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 1.125em;
+    }
+}
+
+@media(min-width: 1000px) {
+    html {
+        font-size: 1.25em;
+    }
 }
